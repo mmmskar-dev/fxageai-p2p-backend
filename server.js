@@ -11,7 +11,7 @@ const PORT = process.env.PORT || 3000;
 let fxCache = {
   lastUpdate: 0,
   rates: { UGX: 0, TZS: 0 }
-};
+}; 
 
 async function getFX() {
   const now = Date.now();
